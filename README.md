@@ -1,4 +1,4 @@
-# Properties v1.0.0
+# Properties v1.0.1
 [Wally Package](https://wally.run/package/sigmaeg/properties)
 
 - Requires [HttpService](https://create.roblox.com/docs/reference/engine/classes/HttpService).
