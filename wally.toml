@@ -1,0 +1,9 @@
+[package]
+name = "sigmaeg/properties"
+description = "Requires HttpService. Retrieves the Properties from an Instance by referencing https://github.com/MaximumADHD/Roblox-Client-Tracker/tree/roblox. Specifying 'FullAPIDump' or 'APIDump' when using Properties.new() will determine which dumpfile to read. Properties:GetPropertiesFilterDefault(...) will not return any Properties that match the default values of the Instance, however Properties:GetPropertiesNoFilter(...) will."
+version = "1.0.0"
+license = "MIT"
+authors = ["SigmaHelios <Discord: @sigmaeg>"]
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+repository = "https://github.com/SigmaEG/Properties"
