@@ -11,7 +11,7 @@
 
 - `Properties:GetPropertiesFilterDefault(...)` will not return any Properties that match the default values of the Instance, however `Properties:GetPropertiesNoFilter(...)` will.
 
-- Properties.PropertyToString(...) converts a PropertyName (passed as a string of the type), given a PropertyValue, into a string i.e `CFrame.new(...)` or `Color3.fromRGB(...)`
+- `Properties.PropertyToString(...)` converts a PropertyName (passed as a string of the type), given a PropertyValue, into a string i.e `CFrame.new(...)` or `Color3.fromRGB(...)`
 `Properties.PropertyToString("CFrame", CFrame.new()) -- returns CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1) as a string`
 
 - If you wish to interface with either API Dump yourself, you can either create a Properties object and access `self.APIDump`, or use `Properties.GetAPIDump()` or `Properties.GetFullAPIDump`
