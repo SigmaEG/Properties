@@ -5,7 +5,7 @@
 
 - Retrieves the Properties from an Instance by referencing [MaximumADHD API Dump Repository](https://github.com/MaximumADHD/Roblox-Client-Tracker/tree/roblox).
 
-- Specifying 'FullAPIDump' (string) or 'APIDump' (string) when using Properties.new() will determine which dumpfile to read.
+- Specifying 'FullAPIDump' (string) or 'APIDump' (string) when using `Properties.new()` will determine which dumpfile to read.
 `Properties.new("FullAPIDump") -- retrieves Full-API-Dump.json and returns a new Properties object with the dump in self.APIDump as a Dictionary`
 `Properties.new("APIDump") -- retrieves API-Dump.json and returns a new Properties object with the dump in self.APIDump as a Dictionary`
 
